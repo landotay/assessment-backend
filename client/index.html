@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <h1>Backend Assessment</h1>
+    <h2>Buttons</h2>
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <h2>To-Do List</h2>
+    <section id="todolist">
+
+      <form>
+        <input
+        type='text'
+        id="title"
+        placeholder="New Task"/>
+        <input
+        type="radio"
+        name="complete"
+        value="complete"
+        id="complete"
+         />
+         <label for="complete">Complete </label>
+        <button>Submit</button>
+        
+        
+      </form>
+      
+    </section>
+    <section id="task-container"></section>
+    
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
